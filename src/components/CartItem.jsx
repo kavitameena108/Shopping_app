@@ -17,7 +17,7 @@ import{remove} from "../redux/Slices/CartSlice"
     <div>
       <div className="w-full flex space-x-6 py-6 px-4 items-start border-b-2 border-slate-500">
         <div className=" w-[180px] aspect-square h-[180px] object-cover min-[425px]:items-center">
-          <img src={item.image} className="w-full h-full object-contain"/>
+          <img src={item.image} alt='image' className="w-full h-full object-contain"/>
         </div>
         <div className="flex flex-col space-y-4 w-full ">
           <h1 className="text-red-700 font-semibold text-xl w-full ">{item.title}</h1>
