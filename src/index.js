@@ -18,7 +18,7 @@ root.render(
       <App />
       
     </Provider>
- <Toaster/>n 
+ <Toaster/> 
   
   </BrowserRouter>
     
